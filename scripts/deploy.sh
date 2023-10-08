@@ -14,4 +14,4 @@ nest build
 
 # application 재실행
 echo "> reload application"
-pm2 reload test-cicd1
+sudo pm2 reload test-cicd1

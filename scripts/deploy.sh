@@ -14,4 +14,4 @@ nest build
 
 # application 재실행
 echo "> reload application"
-pm2 reload dist/main.js
+pm2 reload test-cicd1

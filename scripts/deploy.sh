@@ -12,10 +12,6 @@ npm install
 echo "> build application"
 nest build
 
-# 관리자
-echo "> root"
-sudo -s
-
 # application 재실행
 echo "> reload application"
-pm2 reload test-cicd1
+pm2 reload dist/main.js

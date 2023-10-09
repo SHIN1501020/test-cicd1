@@ -10,8 +10,7 @@ npm install
 
 # 프로젝트 build
 echo "> build application"
-# nest build
-npm run build
+nest build
 
 # application 재실행
 echo "> reload application"
